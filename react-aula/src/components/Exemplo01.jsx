@@ -1,11 +1,8 @@
+import sortearNumero from '../util/sorteador.js'
+
 function Exemplo01() {
     
-    /*
-     * Math.random():
-     * Como esse método retorna um número decimal entre 0 (inclusivo) e 1 (exclusivo), 
-     * a chance de o número ser maior ou menor que 0.5 é de exatamente 50%.
-     */
-    const logado = Math.random() >= 0.5;
+    const logado = sortearNumero(0, 1);
 
     return (
         <div>

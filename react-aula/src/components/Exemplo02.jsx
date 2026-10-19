@@ -1,8 +1,9 @@
 import '../style/style.css'
+import sortearNumero from '../util/sorteador.js'
 
 function Exemplo02_CardProduto() {
 
-    const estoque = 8;
+    const estoque = sortearNumero(0, 10);
 
     return (
         <div className="card">
