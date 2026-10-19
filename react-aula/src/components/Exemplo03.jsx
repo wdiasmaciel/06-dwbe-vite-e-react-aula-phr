@@ -12,6 +12,7 @@ function Exemplo03_CardProduto() {
             {
                 estoque < 3 && <p>Últimas unidades!</p>
             }
+            <p>Preço: R$ 4.200,00</p>
         </div>
     );
 

@@ -11,6 +11,7 @@ function Exemplo04_CardProduto() {
             <h2>Exemplo 04: Notebook Dell</h2>
             <p>Estoque: {estoque}</p>
             <p>{statusProduto(estoque)}</p>
+            <p>Preço: R$ 4.200,00</p>
         </div>
     );
 

@@ -15,6 +15,7 @@ function Exemplo02_CardProduto() {
                 : 
                   <p className="indisponivel">Indisponível</p>
             }
+            <p>Preço: R$ 4.200,00</p>
         </div>
     );
 

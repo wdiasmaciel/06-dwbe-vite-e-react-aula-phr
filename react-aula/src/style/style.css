@@ -4,3 +4,12 @@
     border-radius: 0.5rem;
     margin: 1rem;
 }
+
+.container {
+  width: 25rem;
+  height: 30rem; /* Define a altura limite */
+  overflow-y: auto; /* Adiciona scroll vertical apenas quando necessário */
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 0 1rem 1rem 1rem #ddd;
+}
