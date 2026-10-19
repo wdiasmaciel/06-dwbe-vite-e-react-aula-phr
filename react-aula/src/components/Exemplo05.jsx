@@ -8,6 +8,8 @@ function Exemplo05_CardProduto() {
     const estoque = sortearNumero(0, 10);
 
     return (
+        <>
+        <h1>Exemplo 05</h1>
         <div className="container">
             <Exemplo04_CardProduto />
             <Exemplo04_CardProduto />
@@ -15,6 +17,7 @@ function Exemplo05_CardProduto() {
             <Exemplo04_CardProduto />
             <Exemplo04_CardProduto />
         </div>
+        </>
     );
 
 }
