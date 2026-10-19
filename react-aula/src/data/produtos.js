@@ -21,3 +21,5 @@ const produtos = [
         estoque: 0
     }
 ];
+
+export default produtos;
