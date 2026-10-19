@@ -1,4 +1,4 @@
-import "../styles/style.css";
+import "../style/style.css";
 
 function CardProduto({ nome, categoria, preco, estoque }) {
 
