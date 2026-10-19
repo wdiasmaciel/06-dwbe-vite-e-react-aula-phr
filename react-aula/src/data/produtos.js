@@ -1,18 +1,23 @@
 const produtos = [
-
     {
-        nome:"Notebook",
-        preco:4200
+        id: 1,
+        nome: "Notebook",
+        categoria: "Informática",
+        preco: 4200,
+        estoque: 8
     },
-
     {
-        nome:"Mouse",
-        preco:180
+        id: 2,
+        nome: "Mouse Gamer",
+        categoria: "Periféricos",
+        preco: 180,
+        estoque: 2
     },
-
     {
-        nome:"Monitor",
-        preco:1200
+        id: 3,
+        nome: "Monitor LG",
+        categoria: "Monitores",
+        preco: 1200,
+        estoque: 0
     }
-
 ];
