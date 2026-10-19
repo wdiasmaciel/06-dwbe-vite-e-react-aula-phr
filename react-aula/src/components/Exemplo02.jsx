@@ -7,7 +7,7 @@ function Exemplo02_CardProduto() {
 
     return (
         <div className="card">
-            <h2>Notebook Dell</h2>
+            <h2>Exemplo 02: Notebook Dell</h2>
             <p>Estoque: {estoque}</p>
             {
                 estoque > 0 ? 

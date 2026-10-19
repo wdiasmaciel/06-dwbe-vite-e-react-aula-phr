@@ -6,7 +6,7 @@ function Exemplo01() {
 
     return (
         <div>
-            {logado ? <h2>Bem-vindo!</h2> : <h2>Faça Login</h2>}
+            {logado ? <h2>Exemplo 01: Bem-vindo!</h2> : <h2>Exemplo 01: Faça Login</h2>}
         </div>
     );
 
