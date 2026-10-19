@@ -5,7 +5,6 @@ import CardProduto from './CardProduto'
 
 function Exemplo06_CardProduto() {
 
-    const estoque = sortearNumero(0, 10);
     const produtos = [
 
         { nome: "Notebook", categoria: "Informática", preco: 4200 },
@@ -20,15 +19,18 @@ function Exemplo06_CardProduto() {
         <>
             <h1>Exemplo 06</h1>
             <div className="container">
-                {produtos.map(produto => 
+                {produtos.map(produto => {
+                    const estoque = sortearNumero(0, 10);
+                    const status = statusProduto(estoque);
+
                     <CardProduto
                         nome={produto.nome}
                         categoria={produto.categoria}
                         preco={produto.preco}
                         estoque={estoque}
-                        status={statusProduto(estoque)}
+                        status={status}
                     />
-                )}
+                })}
             </div>
         </>
     );
