@@ -1,9 +1,9 @@
 import '../style/style.css'
 import sortearNumero from '../util/sorteador.js'
 import statusProduto from '../util/status.js'
-import Exemplo04_CardProduto from './Exemplo04'
+import CardProduto from './CardProduto'
 
-function Exemplo05_CardProduto() {
+function Exemplo06_CardProduto() {
 
     const estoque = sortearNumero(0, 10);
     const produtos = [
@@ -34,4 +34,4 @@ function Exemplo05_CardProduto() {
 
 }
 
-export default Exemplo05_CardProduto;
+export default Exemplo06_CardProduto;
