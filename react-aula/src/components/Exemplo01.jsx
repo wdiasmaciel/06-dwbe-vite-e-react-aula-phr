@@ -1,4 +1,4 @@
-function Exemplo_01() {
+function Exemplo01() {
     
     /*
      * Math.random():
@@ -15,4 +15,4 @@ function Exemplo_01() {
 
 }
 
-export default Exemplo_01;
+export default Exemplo01;
