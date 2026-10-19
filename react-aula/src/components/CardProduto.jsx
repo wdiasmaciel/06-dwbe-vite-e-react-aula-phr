@@ -1,6 +1,6 @@
 import "../style/style.css";
 
-function CardProduto({ nome, categoria, preco, estoque }) {
+function CardProduto({ nome, categoria, preco, estoque, status }) {
 
     return (
         <div className="card">
@@ -8,6 +8,7 @@ function CardProduto({ nome, categoria, preco, estoque }) {
             <p>{categoria}</p>
             <p>Preço: R$ {preco}</p>
             <p>Estoque: {estoque}</p>
+            <p>Status: {status}</p>
         </div>
     );
 

@@ -26,6 +26,7 @@ function Exemplo06_CardProduto() {
                         categoria={produto.categoria}
                         preco={produto.preco}
                         estoque={estoque}
+                        status={statusProduto(estoque)}
                     />
                 )}
             </div>
