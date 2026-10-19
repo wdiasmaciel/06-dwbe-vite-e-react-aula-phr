@@ -1,21 +1,22 @@
 import '../style/style.css'
 import sortearNumero from '../util/sorteador.js'
 import statusProduto from '../util/status.js'
+import Exemplo04_CardProduto from './Exemplo04'
 
-function Exemplo04_CardProduto() {
+function Exemplo05_CardProduto() {
 
     const estoque = sortearNumero(0, 10);
 
     return (
         <div className="container">
-            <div className="card">
-                <h2>Exemplo 04: Notebook Dell</h2>
-                <p>Estoque: {estoque}</p>
-                <p>{statusProduto(estoque)}</p>
-            </div>
+            <Exemplo04_CardProduto />
+            <Exemplo04_CardProduto />
+            <Exemplo04_CardProduto />
+            <Exemplo04_CardProduto />
+            <Exemplo04_CardProduto />
         </div>
     );
 
 }
 
-export default Exemplo04_CardProduto;
+export default Exemplo05_CardProduto;
