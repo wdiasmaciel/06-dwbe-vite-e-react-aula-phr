@@ -8,7 +8,7 @@ function Exemplo07_CardProduto() {
 
     return (
         <>
-            <h1>Exemplo 07</h1>
+            <h1>Exemplo 08</h1>
             <div className="container">
                 {disponiveis.map(produto => (
                         <CardProduto
