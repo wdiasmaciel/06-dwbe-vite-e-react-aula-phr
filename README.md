@@ -44,6 +44,10 @@ npm install
 npm run dev
 ```
 
+```bash
+git add . && git commit -m "Exemplo" && git push
+```
+
 ---
 
 ## Exercícios
