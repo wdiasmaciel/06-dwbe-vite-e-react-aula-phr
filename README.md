@@ -90,4 +90,18 @@ git add . && git commit -m "Exemplo" && git push
 
 ---
 
-## Exercícios
+# Exercícios 
+
+1. Explique o que é renderização condicional e cite duas situações em que ela é utilizada em aplicações web.
+
+2. Qual é a diferença entre utilizar o operador ternário (`? :`) e o operador lógico `&&` no JSX?
+
+3. Crie um componente que exiba a mensagem **"Aluno aprovado"** quando a média for maior ou igual a 7 e **"Aluno reprovado"** caso contrário.
+
+4. Desenvolva um vetor contendo cinco livros (id, título, autor e preço) e utilize o método `map()` para exibi-los na tela.
+
+5. Pesquise a finalidade da propriedade `key` no React e explique por que o uso do índice do vetor (`index`) não é recomendado em listas dinâmicas.
+
+6. Modifique o Sistema de Gerenciamento de Produtos para exibir apenas os produtos que possuem estoque maior que zero utilizando o método `filter()`.
+
+7. Como desafio, implemente um botão **"Mostrar indisponíveis"** que alterne entre exibir todos os produtos ou apenas aqueles sem estoque. (Dica: esse exercício utilizará os conceitos de `useState` estudados no capítulo anterior.)
