@@ -23,13 +23,16 @@ function Exemplo06_CardProduto() {
                     const estoque = sortearNumero(0, 10);
                     const status = statusProduto(estoque);
 
-                    <CardProduto
-                        nome={produto.nome}
-                        categoria={produto.categoria}
-                        preco={produto.preco}
-                        estoque={estoque}
-                        status={status}
-                    />
+                    return (
+                        <CardProduto
+                            key={produto.nome}
+                            nome={produto.nome}
+                            categoria={produto.categoria}
+                            preco={produto.preco}
+                            estoque={estoque}
+                            status={status}
+                        />
+                    );
                 })}
             </div>
         </>
