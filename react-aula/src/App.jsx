@@ -4,6 +4,7 @@ import Exemplo02_CardProduto from './components/Exemplo02'
 import Exemplo03_CardProduto from './components/Exemplo03'
 import Exemplo04_CardProduto from './components/Exemplo04'
 import Exemplo05_CardProduto from './components/Exemplo05'
+import Exemplo06_CardProduto from './components/Exemplo06'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <Exemplo03_CardProduto />
       <Exemplo04_CardProduto />
       <Exemplo05_CardProduto />
+      <Exemplo06_CardProduto />
     </>
   );
 }
